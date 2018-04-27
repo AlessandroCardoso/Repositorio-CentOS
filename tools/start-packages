@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "Starting Packages Server ..."
+
+service nginx restart
+service ssh restart
+
+tail -f /var/log/nginx/error.log

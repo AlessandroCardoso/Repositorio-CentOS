@@ -1,0 +1,9 @@
+server {
+    server_name centos.i9corp.com.br;
+    root /etc/i9corp/packages/;
+    location / {
+        root /etc/i9corp/packages/centos;
+        autoindex on;
+    }
+}
+

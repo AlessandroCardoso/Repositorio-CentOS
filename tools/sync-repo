@@ -1,0 +1,4 @@
+#!/bin/bash
+
+createrepo --update ${CENTOS_DISTRIB}/updates
+createrepo --update ${CENTOS_DISTRIB}/base
